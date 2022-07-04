@@ -41,3 +41,14 @@ h1{
 .countdown-el span {
     font-size: 1.3rem;
 }
+
+@media (max-width: 584px) {
+
+    .countdown-container {
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
