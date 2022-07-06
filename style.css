@@ -25,7 +25,8 @@ h1{
 
 .countdown-container {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .big-text{
@@ -43,7 +44,7 @@ h1{
     font-size: 1.3rem;
 }
 
-@media (max-width: 584px) {
+/* @media (max-width: 584px) {
 
     .countdown-container {
         display: block;
@@ -52,4 +53,4 @@ h1{
     h1 {
         text-align: center;
     }
-}
+} */
