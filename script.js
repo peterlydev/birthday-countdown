@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours")
 const minutesEl = document.getElementById("minutes")
 const secondsEl = document.getElementById("seconds")
 
-const myBirthday = "17 Sept 2022"
+const myBirthday = "17 Sept 2022 "
 
 function countdown() {
     const myBirthdayDate = new Date(myBirthday);
@@ -26,6 +26,6 @@ function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 
-countdown();
+ countdown();
 
 setInterval(countdown, 1000);
